@@ -14,9 +14,9 @@ jobs:
       #You can specify the solution name here
       solution_name: GitHubTable
       #Update your values here
-      BUILD_ENVIRONMENT_URL: https://org122e3755.crm.dynamics.com
-      PRODUCTION_ENVIRONMENT_URL: https://org487b1013.crm.dynamics.com
-      CLIENT_ID: fb835c08-26fb-49bb-be8f-80c4a19d0834
-      TENANT_ID: ac8d66aa-a3d8-4920-b4a4-3dba26edebff      
+      BUILD_ENVIRONMENT_URL: 'https://org122e3755.crm.dynamics.com'
+      PRODUCTION_ENVIRONMENT_URL: 'https://org487b1013.crm.dynamics.com'
+      CLIENT_ID: 'fb835c08-26fb-49bb-be8f-80c4a19d0834'
+      TENANT_ID: 'ac8d66aa-a3d8-4920-b4a4-3dba26edebff'      
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
